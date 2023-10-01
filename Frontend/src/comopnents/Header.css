@@ -7,11 +7,20 @@ header {
   align-items: center;
 }
 
+.logo {
+  max-width: 60px;
+}
+
+.logo img {
+  width: 100%;
+}
+
 a {
   font-weight: 500;
   font-size: 18px;
   text-decoration: none;
   color: #000;
+  transition: 0.5s;
 }
 
 button {
@@ -19,16 +28,40 @@ button {
   border-radius: 5px;
   outline: none;
   border: none;
-  background: #4e60ff;
+  background: var(--button);
   color: #fff;
   font-weight: 500;
   cursor: pointer;
   font-size: 16px;
+  transition: 0.5s;
+}
+
+.hamburger {
+  display: none;
+  transition: 0.5s;
+  border-radius: 5px;
+  background-color: #e5e5e5;
+  padding: 5px;
+}
+.hamburger div {
+  transition: 0.8s;
+}
+.hamburger div:hover {
+  transform: rotate(180deg);
 }
 
 @media screen and (max-width: 1010px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 1rem;
+  }
   a,
   button {
     display: none;
+  }
+  .hamburger {
+    display: block;
   }
 }

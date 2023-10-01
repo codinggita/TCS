@@ -1,0 +1,45 @@
+.track_section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 5rem 8rem;
+  background-color: #fff;
+  padding: 3rem;
+  flex-wrap: nowrap;
+}
+
+.track_section .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 2;
+}
+
+.inputArea {
+  flex: 1;
+}
+.inputArea input[type="text"] {
+  outline: none;
+  background: #fff;
+  box-shadow: 10px 2px 10px 10px rgb(218, 218, 216);
+  font-size: 1.2rem;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  margin-right: 0.2rem;
+}
+
+.inputArea input[type="button"] {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (max-width: 1010px) {
+  .track_section {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,12 @@
+.form_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+}
+
+form {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 10px;
+}

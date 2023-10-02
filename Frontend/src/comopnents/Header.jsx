@@ -17,10 +17,9 @@ const Header = () => {
         <img src={logo} alt="" />
       </div>
 
-      <a href="/">Home</a>
-      <a href="/">Service</a>
-      <a href="/">About</a>
-      <a href="/">Contact</a>
+      <Link to="/">Home</Link>
+      <Link to="/register">Signup</Link>
+      <Link to="/login">Login</Link>
 
       <button>Login | Register</button>
       <div className="hamburger">

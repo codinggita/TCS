@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../Assets/small-parcel-courier-service-500x500.webp";
+// import heroImage from "../Assets/small-parcel-courier-service-500x500.webp";
 import "./Banner.css";
 
 const Banner = () => {

@@ -1,4 +1,4 @@
-import Banner from "../comopnents/Banner";
+import Banner from "../comopnents/Banner/Banner";
 import Service from "../comopnents/Service";
 import BrandLogo from "../comopnents/Speciality";
 import TrackSearch from "../comopnents/TrackSearch";

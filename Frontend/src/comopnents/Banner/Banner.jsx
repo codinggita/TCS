@@ -6,10 +6,14 @@ const Banner = () => {
   return (
     <div className="hero">
       <div className="text-area">
-        <h1>Your Text Here</h1>
-        <p>Some additional information or description can go here.</p>
+        <div className="text">
+          <h1>Your Text Here</h1>
+          <p>Some additional information or description can go here.</p>
+        </div>
       </div>
-      <div className="img-area">{/* <img src={heroImage} alt="Hero" /> */}</div>
+      <div className="img-area">
+        <div className=" image">{/* <img src={heroImage} alt="Hero" /> */}</div>
+      </div>
     </div>
   );
 };

@@ -65,3 +65,27 @@ button {
     display: block;
   }
 }
+
+/*-------------------------------------------------Responsive Nav-----------------------------------------------------*/
+.responsive_nav_none {
+  display: none;
+  transition: 1s ease-in;
+}
+
+.responsive_nav {
+  width: 100%;
+  height: 30vh;
+  z-index: 300;
+  background-color: #000;
+  transition: 1s ease;
+  display: block;
+}
+.responsive_nav ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.responsive_nav ul li Link {
+  color: #fff;
+}

@@ -11,6 +11,7 @@ import Login from "./Pages/Login";
 import Signup from "./Pages/Signup";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ServiceDetail from "./comopnents/ServiceDetail/ServiceDetail";
+import Error404 from "./Pages/Error404";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/register" element={<Signup />} />
           <Route path="/login" element={<Login />} />
           <Route path="/service_detail?${id}" element={<ServiceDetail />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
       </BrowserRouter>
     </>

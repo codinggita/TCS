@@ -89,7 +89,7 @@ const About = () => {
         <h2 className=" text-blue-700 font-pop text-3xl font-bold text-center  ">
           Our Team
         </h2>
-        <div className="teams_intro flex order-3  columns-3 gap-8 gap-y-5 ">
+        <div className="teams_intro grid grid-cols-3 gap-8">
           <TeamCard />
           <TeamCard />
           <TeamCard />

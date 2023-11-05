@@ -12,6 +12,7 @@ import Auth from "./Pages/Auth";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ServiceDetail from "./comopnents/ServiceDetail/ServiceDetail";
 import Error404 from "./Pages/Error404";
+import Footer from "./comopnents/Footer/Footer";
 
 const Pages = () => {
   return (
@@ -26,10 +27,11 @@ const Pages = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/register" element={<Signup />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/service_detail?${id}" element={<ServiceDetail />} />
+          <Route path="/service_detail" element={<ServiceDetail />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="*" element={<Error404 />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
